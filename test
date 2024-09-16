@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample HTML page with semantic elements">
+    <title>Sample Web Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Sample Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#main-content">Main Content</a></li>
+                <li><a href="#gallery">Image Gallery</a></li>
+                <li><a href="https://www.wikipedia.org" target="_blank">Learn More</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section>
+            <h2>Features of This Page</h2>
+            <ul>
+                <li>Semantic HTML structure</li>
+                <li>Responsive design with viewport settings</li>
+                <li>Images and external links</li>
+            </ul>
+        </section>
+    </main>
+
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Sample Image 1">
+            <figcaption>Sample Image 1</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Sample Image 2">
+            <figcaption>Sample Image 2</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Sample Image 3">
+            <figcaption>Sample Image 3</figcaption>
+        </figure>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sample Web Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
